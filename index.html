@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-annotation/0.5.7/chartjs-plugin-annotation.js'></script>
+
+</head>
+
+<style>
+      
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+ul > li > h1 {
+  color: white;
+}
+
+body {
+  font-family: Helvetica Neue, Arial, sans-serif;
+  text-align: left;
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 0.9em;
+  margin: 0 0 20px;
+  color: #999;
+}
+
+ </style>
+
+
+<body>
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-6">
+      
+      <canvas id="ClearanceRate" width="200" height="200"></canvas>
+
+      <h2>From 2001 to 2017 48.6 percent of the 8913 homicides in Chicago resulted in an arrest. To use the FBI's terminology, the national 'clearance rate' for homicide today is 64.1 percent. Fifty years ago, it was more than 90 percent.</h2>
+
+    </div>
+    <div class="col-xs-6">
+
+      <canvas id="TotalHomicides" width="200" height="200"></canvas>
+
+      <h2>The number of homicides has spiked in recent years while the arrest rate decreased. There have been 4609 homicides without an arrest between 2001 and 2017.</h2>
+      
+    </div>
+  </div>
+</div>
+    
+<script src="script.js"></script>
+
+</body>
+</html>
