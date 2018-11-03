@@ -42,7 +42,7 @@ var ClearanceRate = new Chart(ctx, {
       datasets: [
         {
           label: "Arrest Rate",
-          backgroundColor: "#f6b857",
+          backgroundColor: "#a6cce3",
            data: clearance
         }
       ]
